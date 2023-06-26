@@ -144,14 +144,3 @@ http://127.0.0.1:5000/insert/
 http://127.0.0.1:5000/indexing/
 
 ```
-
-### 5. Run the Frontend Website
-
-You can run a demo webpage to test the image search. [Click here](https://github.com/zcsd/reverse_image_search_web) to check the code for [frontend demo webpage](https://demo.best360.tech/). 
-
-Download the [Reverse_Image_Search_Web code](https://github.com/zcsd/Reverse_Image_Search_Web), [dist folder](https://github.com/zcsd/Reverse_Image_Search_Web/tree/master/dist) will work as your webpage source folder, you can ignore functions/api and package.json in the main directory.
-
-Change the baseURL to *http://127.0.0.1:5000/* in /dist/assets/js/helper.js [line 223](https://github.com/zcsd/Reverse_Image_Search_Web/blob/master/dist/assets/js/helper.js#L223).
-
-Now you can open the frontend webpage to try the image search!
-
